@@ -1,0 +1,8 @@
+ref 
+nom de produit
+coleur
+prix
+taille (xs,s,m,l,xl,xxl,xxxl)
+gategorie
+
+

@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"/> 
+        <title>Mhfashion</title>
+        <style>
+            ul,li{
+                display:inline-block;
+                margin-left:110px; 
+                margin-top: 160px;
+                
+            }
+            a:hover{
+                border: 0.2px solid lightblue;
+                background-color:rgb(240, 152, 94) ;
+            }
+            a::after{
+                border: 0.1px solid lightblue;
+            }
+            #retour{
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                padding-right: 10px;
+                padding-bottom: 10px;
+            }
+    
+            
+            </style>
+    </head>
+    <body>
+        
+            <ul>
+                <li><a href="http://localhost/mhfashion/ajout.php"><strong><img src="shopping-cart.png" title="Ajouter un produit" width="250px" height="250px"></strong></a></li>
+                <li><a href="http://localhost/mhfashion/afficher.php"><img src="show product.png" title="Affichage de produit" width="250px" height="250px"></a></li>
+                <li><a href="http://localhost/mhfashion/suppression.php"><img src="management.png" title="Modification de produit" width="250px" height="250px"></a></li>
+                <li><a href="http://localhost/mhfashion/recherche.php"><img src="searchproduct.png" title="Recherche de produit" width="250px" height="250px"></a></li>
+                
+                
+        </ul>
+        <div id="retour">
+        <a href="http://localhost/mhfashion/home.html"><img  src="retour.png" title="Retour vers la menu principale" width="70px" height="70px"></a>
+    </div>
+    </body>
+</html>

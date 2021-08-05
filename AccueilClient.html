@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"/> 
+        <title>Mhfashion</title>
+        <style>
+            ul,li{
+                display:inline-block;
+                margin-left:100px; 
+                margin-top: 170px;
+                
+            }
+            a:hover{
+                border: 1px solid lightblue;
+                background-color:rgb(240, 152, 94) ;
+            }
+            a::after{
+                border: 1px solid lightblue;
+            }
+            #retour{position:fixed;
+                    right: 0;
+                    bottom:0;
+                    margin-bottom:10px;
+                    margin-right:10px        
+            }
+    
+            
+            </style>
+    </head>
+    <body>
+        
+            <ul>
+                <li><a href="http://localhost/mhfashion/ajoutclient.php"><img src="add-user.png" title="Ajouter Client" width="250px" height="250px"></a></li>
+                <li><a href="http://localhost/mhfashion/suppressioncommande.php"><img src="client.png" title="Affichage de Client" width="250px" height="250px"></a></li>
+                <li><a href="http://localhost/mhfashion/suppressionclient.php"><img src="profile.png" title="Modification de client" width="250px" height="250px"></a></li>
+                <li><a href="http://localhost/mhfashion/rechercheclient.php"><img src="searchuser.png" title="Recherche de Client" width="250px" height="250px"></li>
+            </ul>
+            <div id="retour">
+        <a href="http://localhost/mhfashion/home.html"><img src="retour.png" title="Retour vers la menu principale" width="70px" height="70px"></a>
+    </div>
+    </body>
+</html>
